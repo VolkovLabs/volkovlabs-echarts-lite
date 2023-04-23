@@ -1,7 +1,6 @@
 import { PanelOptions } from '../types';
 import { Renderer } from './echarts';
 import { Format } from './editor';
-import { Map } from './maps';
 
 /**
  * ECharts Example
@@ -91,17 +90,4 @@ export const DefaultOptions: PanelOptions = {
   getOption,
   renderer: Renderer.CANVAS,
   editor: { height: 600, format: Format.AUTO },
-  map: Map.NONE,
-  baidu: {
-    key: '',
-    callback: 'bmapReady',
-  },
-  gaode: {
-    key: '',
-    plugin: 'AMap.Scale,AMap.ToolBar',
-  },
-  google: {
-    key: '',
-    callback: 'gmapReady',
-  },
 };

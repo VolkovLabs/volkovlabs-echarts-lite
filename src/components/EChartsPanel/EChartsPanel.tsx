@@ -1,17 +1,9 @@
-import 'echarts-liquidfill';
-import 'echarts-gl';
-import 'echarts/extension/bmap/bmap';
-import 'echarts-extension-amap';
-import 'echarts-extension-gmap';
 import * as echarts from 'echarts';
-import echartsStat from 'echarts-stat';
 import React, { useEffect, useRef, useState } from 'react';
 import { css, cx } from '@emotion/css';
 import { AlertErrorPayload, AlertPayload, AppEvents, LoadingState, PanelProps } from '@grafana/data';
 import { getAppEvents, locationService } from '@grafana/runtime';
 import { Alert, useStyles2, useTheme2 } from '@grafana/ui';
-import { Map } from '../../constants';
-import { loadBaidu, loadGaode, loadGoogle, registerMaps } from '../../maps';
 import { Styles } from '../../styles';
 import { PanelOptions } from '../../types';
 
@@ -49,11 +41,6 @@ export const EChartsPanel: React.FC<Props> = ({ options, data, width, height, re
   const notifyError = (payload: AlertErrorPayload) => appEvents.publish({ type: AppEvents.alertError.name, payload });
 
   /**
-   * Transformations
-   */
-  const ecStat: any = echartsStat;
-
-  /**
    * Initialize Chart
    */
   const initChart = () => {
@@ -83,7 +70,7 @@ export const EChartsPanel: React.FC<Props> = ({ options, data, width, height, re
   useEffect(() => {
     initChart();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [options.renderer, options.map]);
+  }, [options.renderer]);
 
   /**
    * Resize
@@ -134,7 +121,6 @@ export const EChartsPanel: React.FC<Props> = ({ options, data, width, height, re
         'theme',
         'echartsInstance',
         'echarts',
-        'ecStat',
         'replaceVariables',
         'eventBus',
         'locationService',
@@ -144,42 +130,11 @@ export const EChartsPanel: React.FC<Props> = ({ options, data, width, height, re
       );
 
       /**
-       * Load Maps
-       */
-      switch (options.map) {
-        case Map.NONE:
-          break;
-        case Map.JSON:
-          registerMaps();
-          break;
-        case Map.GMAP:
-          loadGoogle(options.google);
-          break;
-        case Map.BMAP:
-          loadBaidu(options.baidu);
-          break;
-        case Map.AMAP:
-          loadGaode(options.gaode);
-          break;
-      }
-
-      /**
        * Set Options
        */
       chart.setOption({
         backgroundColor: 'transparent',
-        ...func(
-          data,
-          theme,
-          chart,
-          echarts,
-          ecStat,
-          replaceVariables,
-          eventBus,
-          locationService,
-          notifySuccess,
-          notifyError
-        ),
+        ...func(data, theme, chart, echarts, replaceVariables, eventBus, locationService, notifySuccess, notifyError),
       });
     } catch (err) {
       setError(err as any);

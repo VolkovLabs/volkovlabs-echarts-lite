@@ -1,8 +1,5 @@
-import { Map, Renderer } from '../constants';
-import { BaiduOptions } from './baidu';
+import { Renderer } from '../constants';
 import { EditorOptions } from './editor';
-import { GaodeOptions } from './gaode';
-import { GoogleOptions } from './google';
 
 /**
  * Options
@@ -28,32 +25,4 @@ export interface PanelOptions {
    * @type {EditorOptions}
    */
   editor: EditorOptions;
-
-  /**
-   * Type
-   *
-   * @type {Map}
-   */
-  map: Map;
-
-  /**
-   * Baidu
-   *
-   * @type {BaiduOptions}
-   */
-  baidu: BaiduOptions;
-
-  /**
-   * Gaode
-   *
-   * @type {GaodeOptions}
-   */
-  gaode: GaodeOptions;
-
-  /**
-   * Google
-   *
-   * @type {GoogleOptions}
-   */
-  google: GoogleOptions;
 }

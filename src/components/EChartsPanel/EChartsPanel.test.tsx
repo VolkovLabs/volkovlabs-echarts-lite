@@ -4,15 +4,6 @@ import { LoadingState, toDataFrame } from '@grafana/data';
 import { EChartsPanel } from './EChartsPanel';
 
 /**
- * Skip Register Maps
- */
-jest.mock('../../maps', () => ({
-  registerMaps: () => {
-    return;
-  },
-}));
-
-/**
  * Panel
  */
 describe('Panel', () => {
