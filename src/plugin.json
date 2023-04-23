@@ -4,13 +4,13 @@
     "grafanaDependency": ">=8.5.0",
     "plugins": []
   },
-  "id": "volkovlabs-echarts-panel",
+  "id": "volkovlabs-echartsLite-panel",
   "info": {
     "author": {
       "name": "Volkov Labs",
       "url": "https://volkovlabs.io"
     },
-    "description": "Apache ECharts panel",
+    "description": "Apache ECharts Lite panel",
     "keywords": ["echarts"],
     "links": [
       {
@@ -23,7 +23,7 @@
       },
       {
         "name": "GitHub",
-        "url": "https://github.com/VolkovLabs/volkovlabs-echarts-panel"
+        "url": "https://github.com/VolkovLabs/volkovlabs-echarts-lite"
       }
     ],
     "logos": {
@@ -34,15 +34,11 @@
       {
         "name": "Dashboard",
         "path": "img/dashboard.png"
-      },
-      {
-        "name": "Examples",
-        "path": "img/examples.png"
       }
     ],
     "updated": "%TODAY%",
     "version": "%VERSION%"
   },
-  "name": "Apache ECharts",
+  "name": "Apache ECharts Lite",
   "type": "panel"
 }

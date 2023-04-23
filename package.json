@@ -1,6 +1,6 @@
 {
   "author": "Volkov Labs",
-  "description": "Apache ECharts panel for Grafana",
+  "description": "Apache ECharts Lite panel for Grafana",
   "devDependencies": {
     "@grafana/data": "^9.4.7",
     "@grafana/runtime": "^9.4.7",
@@ -9,14 +9,8 @@
     "@types/echarts": "^4.9.16",
     "@types/enzyme": "^3.10.12",
     "@types/enzyme-adapter-react-16": "^1.0.6",
-    "@types/googlemaps": "^3.43.3",
     "@types/webpack-env": "^1.18.0",
     "echarts": "^5.4.2",
-    "echarts-extension-amap": "^1.11.0",
-    "echarts-extension-gmap": "^1.5.0",
-    "echarts-gl": "^2.0.9",
-    "echarts-liquidfill": "^3.1.0",
-    "echarts-stat": "^1.2.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "react": "18.2.0",
@@ -26,17 +20,17 @@
     "node": ">=16"
   },
   "license": "Apache-2.0",
-  "name": "volkovlabs-echarts-panel",
+  "name": "volkovlabs-echarts-lite",
   "scripts": {
     "build": "grafana-toolkit plugin:build --coverage",
     "dev": "grafana-toolkit plugin:dev",
     "levitate": "npx @grafana/levitate@latest is-compatible --path src/module.ts --target @grafana/data,@grafana/runtime,@grafana/ui",
-    "sign": "grafana-toolkit plugin:sign",
+    "sign": "grafana-toolkit plugin:sign --rootUrls http://localhost:3000/",
     "start": "docker-compose pull && docker-compose up",
     "stop": "docker-compose down",
     "test": "grafana-toolkit plugin:test",
     "upgrade": "yarn upgrade --latest",
     "watch": "grafana-toolkit plugin:dev --watch"
   },
-  "version": "4.3.1"
+  "version": "1.0.0"
 }

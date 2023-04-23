@@ -49,11 +49,6 @@ export const CodeEditorSuggestions: CodeEditorSuggestionItem[] = [
     detail: 'ECharts library.',
   },
   {
-    label: 'ecStat',
-    kind: CodeEditorSuggestionItemKind.Property,
-    detail: 'A statistical and data mining tool.',
-  },
-  {
     label: 'locationService',
     kind: CodeEditorSuggestionItemKind.Property,
     detail: 'Browser location and history.',

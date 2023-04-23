@@ -1,6 +1,6 @@
 import { PanelPlugin } from '@grafana/data';
 import { EChartsEditor, EChartsPanel } from './components';
-import { DefaultOptions, FormatOptions, Map, MapOptions, RendererOptions } from './constants';
+import { DefaultOptions, FormatOptions, RendererOptions } from './constants';
 import { PanelOptions } from './types';
 
 /**
@@ -17,79 +17,6 @@ export const plugin = new PanelPlugin<PanelOptions>(EChartsPanel)
           options: RendererOptions,
         },
         defaultValue: DefaultOptions.renderer,
-      })
-      .addRadio({
-        path: 'map',
-        name: 'Maps',
-        settings: {
-          options: MapOptions,
-        },
-        defaultValue: DefaultOptions.map,
-      });
-
-    /**
-     * Baidu
-     */
-    builder
-      .addTextInput({
-        path: 'baidu.key',
-        name: 'Access Key',
-        description:
-          'Set Access Key to use Baidu Maps. You can get it from https://lbsyun.baidu.com/apiconsole/key#/home',
-        defaultValue: DefaultOptions.baidu.key,
-        showIf: (config) => config.map === Map.BMAP,
-        category: ['Baidu'],
-      })
-      .addTextInput({
-        path: 'baidu.callback',
-        name: 'Callback',
-        description: 'Name of the Callback function.',
-        defaultValue: DefaultOptions.baidu.callback,
-        showIf: (config) => config.map === Map.BMAP,
-        category: ['Baidu'],
-      });
-
-    /**
-     * Gaode
-     */
-    builder
-      .addTextInput({
-        path: 'gaode.key',
-        name: 'Access Key',
-        description: 'Set Access Key to use Gaode Maps. You can get it from https://console.amap.com/dev/key/app',
-        defaultValue: DefaultOptions.gaode.key,
-        showIf: (config) => config.map === Map.AMAP,
-        category: ['Gaode'],
-      })
-      .addTextInput({
-        path: 'gaode.plugin',
-        name: 'Plugins',
-        description: 'Name of the Plugins to use.',
-        defaultValue: DefaultOptions.gaode.plugin,
-        showIf: (config) => config.map === Map.AMAP,
-        category: ['Gaode'],
-      });
-
-    /**
-     * Google
-     */
-    builder
-      .addTextInput({
-        path: 'google.key',
-        name: 'Access Key',
-        description:
-          'Set Access Key to use Google Maps. You can get it from https://console.cloud.google.com/apis/credentials',
-        defaultValue: DefaultOptions.google.key,
-        showIf: (config) => config.map === Map.GMAP,
-        category: ['Google'],
-      })
-      .addTextInput({
-        path: 'google.callback',
-        name: 'Callback',
-        description: 'Name of the Callback function.',
-        defaultValue: DefaultOptions.google.callback,
-        showIf: (config) => config.map === Map.GMAP,
-        category: ['Google'],
       });
 
     /**
