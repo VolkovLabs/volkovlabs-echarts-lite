@@ -24,44 +24,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "links": [
-    {
-      "asDropdown": true,
-      "icon": "external link",
-      "includeVars": false,
-      "keepTime": false,
-      "tags": ["echarts"],
-      "targetBlank": false,
-      "title": "Examples",
-      "tooltip": "",
-      "type": "dashboards",
-      "url": ""
-    },
-    {
-      "asDropdown": false,
-      "icon": "info",
-      "includeVars": false,
-      "keepTime": false,
-      "tags": [],
-      "targetBlank": true,
-      "title": "Volkov Labs",
-      "tooltip": "",
-      "type": "link",
-      "url": "https://volkovlabs.io"
-    },
-    {
-      "asDropdown": false,
-      "icon": "bolt",
-      "includeVars": false,
-      "keepTime": false,
-      "tags": [],
-      "targetBlank": true,
-      "title": "YouTube",
-      "tooltip": "",
-      "type": "link",
-      "url": "https://youtube.com/@volkovlabs"
-    }
-  ],
+  "links": [],
   "liveNow": false,
   "panels": [
     {
@@ -384,7 +347,7 @@
           "text": "Sales",
           "value": "Sales"
         },
-        "hide": 0,
+        "hide": 2,
         "label": "Variable",
         "name": "var",
         "options": [
