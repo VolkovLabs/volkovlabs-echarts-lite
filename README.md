@@ -1,16 +1,14 @@
-# Apache ECharts Panel for Grafana
+# Apache ECharts Lite Panel for Grafana
 
 ![ECharts](https://github.com/VolkovLabs/volkovlabs-echarts-lite/raw/main/src/img/dashboard.png)
 
 [![Grafana](https://img.shields.io/badge/Grafana-9.4.7-orange)](https://www.grafana.com)
 [![YouTube](https://img.shields.io/badge/YouTube-Playlist-red)](https://youtube.com/playlist?list=PLPow72ygztmQHGWFqksEf3LebUfhqBfFu)
 ![CI](https://github.com/volkovlabs/volkovlabs-echarts-lite/workflows/CI/badge.svg)
-[![codecov](https://codecov.io/gh/VolkovLabs/volkovlabs-echarts-lite/branch/main/graph/badge.svg?token=0m6f0ktUar)](https://codecov.io/gh/VolkovLabs/volkovlabs-echarts-lite)
-[![CodeQL](https://github.com/VolkovLabs/volkovlabs-echarts-lite/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/VolkovLabs/volkovlabs-echarts-lite/actions/workflows/codeql-analysis.yml)
 
 ## Introduction
 
-The Apache ECharts Lite plugin is a visualization panel for Grafana that allows you to incorporate the popular Apache ECharts library into your Grafana dashboard. It's a fork of the Apache ECharts panel which provides only Core functionality without maps and extensions.
+The Apache ECharts Lite plugin is a visualization panel for Grafana that allows you to incorporate the popular Apache ECharts library into your Grafana dashboard.  It's a fork of the Apache ECharts panel which provides only Core functionality without maps and extensions.
 
 [Apache ECharts](https://echarts.apache.org/en/index.html) is a free, powerful charting and visualization library with statistical capabilities. It is written in pure JavaScript and based on zrender.
 
