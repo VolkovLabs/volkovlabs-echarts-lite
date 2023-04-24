@@ -1,12 +1,10 @@
-# Apache ECharts Panel for Grafana
+# Apache ECharts Lite Panel for Grafana
 
 ![ECharts](https://github.com/VolkovLabs/volkovlabs-echarts-lite/raw/main/src/img/dashboard.png)
 
 [![Grafana](https://img.shields.io/badge/Grafana-9.4.7-orange)](https://www.grafana.com)
 [![YouTube](https://img.shields.io/badge/YouTube-Playlist-red)](https://youtube.com/playlist?list=PLPow72ygztmQHGWFqksEf3LebUfhqBfFu)
 ![CI](https://github.com/volkovlabs/volkovlabs-echarts-lite/workflows/CI/badge.svg)
-[![codecov](https://codecov.io/gh/VolkovLabs/volkovlabs-echarts-lite/branch/main/graph/badge.svg?token=0m6f0ktUar)](https://codecov.io/gh/VolkovLabs/volkovlabs-echarts-lite)
-[![CodeQL](https://github.com/VolkovLabs/volkovlabs-echarts-lite/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/VolkovLabs/volkovlabs-echarts-lite/actions/workflows/codeql-analysis.yml)
 
 ## Introduction
 
