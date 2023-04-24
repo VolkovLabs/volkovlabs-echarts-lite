@@ -8,7 +8,7 @@
 
 ## Introduction
 
-The Apache ECharts Lite plugin is a visualization panel for Grafana that allows you to incorporate the popular Apache ECharts library into your Grafana dashboard.  It's a fork of the Apache ECharts panel which provides only Core functionality without maps and extensions.
+The Apache ECharts Lite plugin is a visualization panel for Grafana that allows you to incorporate the popular Apache ECharts library into your Grafana dashboard. It's a fork of the Apache ECharts panel which provides only Core functionality without maps and extensions.
 
 [Apache ECharts](https://echarts.apache.org/en/index.html) is a free, powerful charting and visualization library with statistical capabilities. It is written in pure JavaScript and based on zrender.
 
