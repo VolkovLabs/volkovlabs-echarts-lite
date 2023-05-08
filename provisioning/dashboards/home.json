@@ -76,7 +76,7 @@
         }
       ],
       "title": "Getting Started using Data Source",
-      "type": "volkovlabs-echartsLite-panel"
+      "type": "volkovlabs-echartslite-panel"
     },
     {
       "datasource": {
@@ -99,7 +99,7 @@
         "renderer": "canvas"
       },
       "title": "Bar",
-      "type": "volkovlabs-echartsLite-panel"
+      "type": "volkovlabs-echartslite-panel"
     },
     {
       "datasource": {
@@ -122,7 +122,7 @@
         "renderer": "canvas"
       },
       "title": "Calendar",
-      "type": "volkovlabs-echartsLite-panel"
+      "type": "volkovlabs-echartslite-panel"
     },
     {
       "datasource": {
@@ -145,7 +145,7 @@
         "renderer": "canvas"
       },
       "title": "Candlestick",
-      "type": "volkovlabs-echartsLite-panel"
+      "type": "volkovlabs-echartslite-panel"
     },
     {
       "datasource": {
@@ -168,7 +168,7 @@
         "renderer": "canvas"
       },
       "title": "Gauge",
-      "type": "volkovlabs-echartsLite-panel"
+      "type": "volkovlabs-echartslite-panel"
     },
     {
       "datasource": {
@@ -191,7 +191,7 @@
         "renderer": "canvas"
       },
       "title": "Sankey",
-      "type": "volkovlabs-echartsLite-panel"
+      "type": "volkovlabs-echartslite-panel"
     },
     {
       "datasource": {
@@ -214,7 +214,7 @@
         "renderer": "canvas"
       },
       "title": "Graph",
-      "type": "volkovlabs-echartsLite-panel"
+      "type": "volkovlabs-echartslite-panel"
     },
     {
       "datasource": {
@@ -239,7 +239,7 @@
         "renderer": "canvas"
       },
       "title": "Line",
-      "type": "volkovlabs-echartsLite-panel"
+      "type": "volkovlabs-echartslite-panel"
     },
     {
       "datasource": {
@@ -262,7 +262,7 @@
         "renderer": "canvas"
       },
       "title": "Treemap",
-      "type": "volkovlabs-echartsLite-panel"
+      "type": "volkovlabs-echartslite-panel"
     },
     {
       "datasource": {
@@ -285,7 +285,7 @@
         "renderer": "canvas"
       },
       "title": "Pie",
-      "type": "volkovlabs-echartsLite-panel"
+      "type": "volkovlabs-echartslite-panel"
     },
     {
       "datasource": {
@@ -308,7 +308,7 @@
         "renderer": "canvas"
       },
       "title": "Radar",
-      "type": "volkovlabs-echartsLite-panel"
+      "type": "volkovlabs-echartslite-panel"
     },
     {
       "datasource": {
@@ -331,7 +331,7 @@
         "renderer": "canvas"
       },
       "title": "Sunburst",
-      "type": "volkovlabs-echartsLite-panel"
+      "type": "volkovlabs-echartslite-panel"
     }
   ],
   "refresh": "",
