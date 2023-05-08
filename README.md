@@ -49,7 +49,7 @@ The Apache ECharts Lite panel is not included in the Grafana Catalog. It can be 
 
 ## Support
 
-We provide GitHub discussions and Premium tier support for Development and Private plugins available via [GitHub Sponsor](https://github.com/sponsors/VolkovLabs).
+We provide GitHub Discussions and Premium tier support for the development and private plugins available via [GitHub Sponsor](https://github.com/sponsors/VolkovLabs).
 
 ## License
 
