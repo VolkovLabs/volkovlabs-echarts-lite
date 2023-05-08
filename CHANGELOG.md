@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.1.0 (2023-05-08)
+
+### Features / Enhancements
+
+- Upgrade to Grafana 9.5.1 toolkit (#3)
+- Update plugin id to `volkovlabs-echarts-lite-panel` (#3)
+
 ## 1.0.0 (2023-04-23)
 
 ### Features / Enhancements

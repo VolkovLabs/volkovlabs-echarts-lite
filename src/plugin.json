@@ -4,13 +4,13 @@
     "grafanaDependency": ">=8.5.0",
     "plugins": []
   },
-  "id": "volkovlabs-echartsLite-panel",
+  "id": "volkovlabs-echarts-lite-panel",
   "info": {
     "author": {
       "name": "Volkov Labs",
       "url": "https://volkovlabs.io"
     },
-    "description": "Apache ECharts Lite panel",
+    "description": "Apache ECharts Core functionality, no extras",
     "keywords": ["echarts"],
     "links": [
       {

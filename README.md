@@ -2,13 +2,13 @@
 
 ![ECharts](https://github.com/VolkovLabs/volkovlabs-echarts-lite/raw/main/src/img/dashboard.png)
 
-[![Grafana](https://img.shields.io/badge/Grafana-9.4.7-orange)](https://www.grafana.com)
+[![Grafana](https://img.shields.io/badge/Grafana-9.5.1-orange)](https://www.grafana.com)
 [![YouTube](https://img.shields.io/badge/YouTube-Playlist-red)](https://youtube.com/playlist?list=PLPow72ygztmQHGWFqksEf3LebUfhqBfFu)
 ![CI](https://github.com/volkovlabs/volkovlabs-echarts-lite/workflows/CI/badge.svg)
 
 ## Introduction
 
-The Apache ECharts Lite plugin is a visualization panel for Grafana that allows you to incorporate the popular Apache ECharts library into your Grafana dashboard. It's a fork of the Apache ECharts panel which provides only Core functionality without maps and extensions.
+The Apache ECharts Lite plugin is a fork of the Apache ECharts panel that provides only Core functionality without maps and extensions.
 
 [Apache ECharts](https://echarts.apache.org/en/index.html) is a free, powerful charting and visualization library with statistical capabilities. It is written in pure JavaScript and based on zrender.
 
@@ -38,7 +38,6 @@ The Apache ECharts Lite panel is not included in the Grafana Catalog. It can be 
 - Supports Code Editor suggestions for Parameters and variables.
 - Allows displaying Success and Error notifications.
 - Supports real-time data updates using streaming Data Sources and Grafana Live.
-- Has 100+ ready-as-is examples at [echarts.volkovlabs.io](https://echarts.volkovlabs.io).
 
 ## Documentation
 
@@ -46,7 +45,7 @@ The Apache ECharts Lite panel is not included in the Grafana Catalog. It can be 
 | --------------------------- | ------------------------------------------------------------------- |
 | [ECharts Function](https://volkovlabs.io/plugins/volkovlabs-echarts-panel/options/) | Explains how to configure the main Apache ECharts library function. |
 | [Examples](https://volkovlabs.io/plugins/volkovlabs-echarts-panel/examples/)        | Explains how to get started with ECharts Examples.                  |
-| [Release Notes](https://volkovlabs.io/plugins/volkovlabs-echarts-panel/release/)    | Stay up to date with the latest features and updates.               |
+| [Release Notes](https://volkovlabs.io/plugins/volkovlabs-echarts-lite/release/)    | Stay up to date with the latest features and updates.               |
 
 ## Feedback
 
