@@ -47,13 +47,9 @@ The Apache ECharts Lite panel is not included in the Grafana Catalog. It can be 
 | [Examples](https://volkovlabs.io/plugins/volkovlabs-echarts-panel/examples/)        | Explains how to get started with ECharts Examples.                  |
 | [Release Notes](https://volkovlabs.io/plugins/volkovlabs-echarts-lite/release/)    | Stay up to date with the latest features and updates.               |
 
-## Feedback
+## Support
 
-We love to hear from you. There are various ways to get in touch with us:
-
-- Ask a question, request a new feature, and file a bug with [GitHub issues](https://github.com/volkovlabs/volkovlabs-echarts-lite/issues/new/choose).
-- Sponsor our open-source plugins for Grafana with [GitHub Sponsor](https://github.com/sponsors/VolkovLabs).
-- Star the repository to show your support.
+We provide GitHub discussions and Premium tier support for Development and Private plugins available via [GitHub Sponsor](https://github.com/sponsors/VolkovLabs).
 
 ## License
 
