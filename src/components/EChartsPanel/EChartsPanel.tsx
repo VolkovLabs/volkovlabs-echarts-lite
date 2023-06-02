@@ -4,6 +4,7 @@ import { css, cx } from '@emotion/css';
 import { AlertErrorPayload, AlertPayload, AppEvents, LoadingState, PanelProps } from '@grafana/data';
 import { getAppEvents, locationService } from '@grafana/runtime';
 import { Alert, useStyles2, useTheme2 } from '@grafana/ui';
+import { TestIds } from '../../constants';
 import { Styles } from '../../styles';
 import { PanelOptions } from '../../types';
 
@@ -149,7 +150,7 @@ export const EChartsPanel: React.FC<Props> = ({ options, data, width, height, re
   return (
     <>
       {error?.message && (
-        <Alert severity="warning" title="ECharts Execution Error">
+        <Alert data-testid={TestIds.panel.error} severity="warning" title="ECharts Execution Error">
           {error.message}
         </Alert>
       )}
@@ -165,6 +166,7 @@ export const EChartsPanel: React.FC<Props> = ({ options, data, width, height, re
             height: ${height}px;
           `
         )}
+        data-testid={TestIds.panel.chart}
       />
     </>
   );
