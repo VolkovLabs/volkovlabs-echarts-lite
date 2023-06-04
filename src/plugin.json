@@ -4,7 +4,7 @@
     "grafanaDependency": ">=8.5.0",
     "plugins": []
   },
-  "id": "volkovlabs-echarts-lite-panel",
+  "id": "volkovlabs-echartslite-panel",
   "info": {
     "author": {
       "name": "Volkov Labs",

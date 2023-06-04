@@ -5,6 +5,8 @@
 ### Features / Enhancements
 
 - Update unit tests with testing-library/react (#5)
+- Update to Grafana 9.5.2 (#3)
+- Update plugin id to `volkovlabs-echartslite-panel` to follow naming convention (#3)
 
 ## 1.1.0 (2023-05-08)
 
