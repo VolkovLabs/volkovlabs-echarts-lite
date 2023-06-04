@@ -8,6 +8,9 @@
 - Update to Grafana 9.5.2 (#6)
 - Update plugin id to `volkovlabs-echartslite-panel` to follow naming convention (#6)
 - Add E2E Cypress testing (#7)
+- Migrate to Plugin Tools 1.5.2 (#8)
+- Update to Node 18 and npm (#8)
+- Tested with Grafana 10 Preview (#8)
 
 ## 1.1.0 (2023-05-08)
 
