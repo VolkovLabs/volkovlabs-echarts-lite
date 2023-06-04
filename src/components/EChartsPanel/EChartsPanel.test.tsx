@@ -81,6 +81,9 @@ describe('Panel', () => {
     expect(echarts.init).toHaveBeenCalledWith(screen.getByTestId(TestIds.panel.chart), 'dark', { renderer });
   });
 
+  /**
+   * Events
+   */
   it('Should publish success and errors events with passed payload', () => {
     const publish = jest.fn();
     jest.mocked(getAppEvents).mockImplementation(
@@ -89,6 +92,7 @@ describe('Panel', () => {
           publish,
         } as any)
     ); // we need only these options
+
     const successPayload: AlertPayload = ['everything is fine'];
     const errorPayload: AlertErrorPayload = ['something is wrong'];
     jest.mocked(echarts.init).mockImplementationOnce(
@@ -108,6 +112,7 @@ describe('Panel', () => {
           clear: jest.fn(),
         } as any)
     ); // we need only these options
+
     render(getComponent({ options: { getOption: 'return { notifySuccess, notifyError }' } }));
     expect(publish).toHaveBeenCalledWith({
       type: AppEvents.alertSuccess.name,

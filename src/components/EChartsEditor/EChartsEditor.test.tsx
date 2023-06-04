@@ -72,6 +72,9 @@ describe('Editor', () => {
     );
   });
 
+  /**
+   * Formatting
+   */
   it('Should enable formatting if enabled', () => {
     const runFormatDocument = jest.fn();
     const editor = {
@@ -137,6 +140,9 @@ describe('Editor', () => {
     expect(onChange).toHaveBeenCalledWith(value);
   });
 
+  /**
+   * Suggestions
+   */
   it('Should make correct suggestions', () => {
     let suggestionsResult;
     const variableWithDescription = { name: 'var1', description: 'Var description', label: 'Var Label' };
