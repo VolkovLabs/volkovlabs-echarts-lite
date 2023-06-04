@@ -3,6 +3,8 @@
   "description": "Apache ECharts Lite panel for Grafana",
   "devDependencies": {
     "@grafana/data": "^9.5.2",
+    "@grafana/e2e": "^9.5.2",
+    "@grafana/e2e-selectors": "^9.5.2",
     "@grafana/runtime": "^9.5.2",
     "@grafana/toolkit": "^9.5.2",
     "@grafana/ui": "^9.5.2",
@@ -22,6 +24,8 @@
   "scripts": {
     "build": "grafana-toolkit plugin:build --coverage",
     "dev": "grafana-toolkit plugin:dev",
+    "e2e": "npm exec cypress install && npm exec grafana-e2e run",
+    "e2e:update": "npm exec cypress install && npm exec grafana-e2e run --update-screenshots",
     "levitate": "npx @grafana/levitate@latest is-compatible --path src/module.ts --target @grafana/data,@grafana/runtime,@grafana/ui",
     "sign": "grafana-toolkit plugin:sign --rootUrls http://localhost:3000/",
     "start": "docker-compose pull && docker-compose up",
