@@ -2,13 +2,15 @@
 
 ![ECharts](https://github.com/VolkovLabs/volkovlabs-echarts-lite/raw/main/src/img/dashboard.png)
 
-[![Grafana](https://img.shields.io/badge/Grafana-9.5.1-orange)](https://www.grafana.com)
+![Grafana](https://img.shields.io/badge/Grafana-9.5.2-orange)
 [![YouTube](https://img.shields.io/badge/YouTube-Playlist-red)](https://youtube.com/playlist?list=PLPow72ygztmQHGWFqksEf3LebUfhqBfFu)
 ![CI](https://github.com/volkovlabs/volkovlabs-echarts-lite/workflows/CI/badge.svg)
+[![codecov](https://codecov.io/gh/VolkovLabs/volkovlabs-echarts-lite/branch/main/graph/badge.svg)](https://codecov.io/gh/VolkovLabs/volkovlabs-echarts-lite)
+[![CodeQL](https://github.com/VolkovLabs/volkovlabs-echarts-lite/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/VolkovLabs/volkovlabs-echarts-lite/actions/workflows/codeql-analysis.yml)
 
 ## Introduction
 
-The Apache ECharts Lite plugin is a fork of the Apache ECharts panel that provides only Core functionality without maps and extensions.
+The Apache ECharts Lite plugin is a fork of the Apache ECharts panel that provides only Core functionality without maps and extensions. It's designed to use in Application plugins and IoT projects.
 
 [Apache ECharts](https://echarts.apache.org/en/index.html) is a free, powerful charting and visualization library with statistical capabilities. It is written in pure JavaScript and based on zrender.
 
@@ -22,21 +24,19 @@ Apache ECharts visualization panel offers an easy way of adding intuitive, inter
 
 ## Getting Started
 
-The Apache ECharts Lite panel is not included in the Grafana Catalog. It can be downloaded directly from GitHub.
+The Apache ECharts Lite panel can be downloaded directly from the GitHub repository.
 
-## Features
+## Highlights
 
 - Provides Monaco Code Editor for:
   - Working with Grafana data frames (JavaScript),
   - Updating chart configurations in JSON format.
-- Supports Code Auto formatting.
 - Executes the `setOption()` function using Monaco Code Editor content.
 - Supports variables and location service to make Charts interactive.
 - Based on the ECharts 5.4.2.
 - Supports Light and Dark modes synchronized with Grafana Theme.
 - Supports SVG and Canvas renderers.
 - Supports Code Editor suggestions for Parameters and variables.
-- Allows displaying Success and Error notifications.
 - Supports real-time data updates using streaming Data Sources and Grafana Live.
 
 ## Documentation
