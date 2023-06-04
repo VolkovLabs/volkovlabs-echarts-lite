@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.2.0 (2023-06-04)
+
+### Features / Enhancements
+
+- Update unit tests with testing-library/react (#5)
+
 ## 1.1.0 (2023-05-08)
 
 ### Features / Enhancements

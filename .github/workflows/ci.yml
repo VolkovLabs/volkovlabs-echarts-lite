@@ -57,6 +57,14 @@ jobs:
           md5sum ${{ steps.metadata.outputs.archive }} > ${{ steps.metadata.outputs.archive-checksum }}
           echo "checksum=$(cat ./${{ steps.metadata.outputs.archive-checksum }} | cut -d' ' -f1)" >> $GITHUB_OUTPUT
 
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          directory: ./coverage/
+          files: ./coverage/lcov.info
+          env_vars: OS,PYTHON
+          fail_ci_if_error: false
+
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
