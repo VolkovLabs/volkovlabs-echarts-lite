@@ -1,5 +1,14 @@
 # Change Log
 
+## 2.0.0 (IN PROGRESS)
+
+### Features / Enhancements
+
+- Update to Apache ECharts 5.4.3 (#9)
+- Update to Grafana 10.0.2 (#9)
+- Remove Grafana 8.5 support (#9)
+- Update ESLint configuration (#9)
+
 ## 1.2.0 (2023-06-04)
 
 ### Features / Enhancements

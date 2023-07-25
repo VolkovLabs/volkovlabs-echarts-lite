@@ -2,7 +2,7 @@
 
 ![ECharts](https://github.com/VolkovLabs/volkovlabs-echarts-lite/raw/main/src/img/dashboard.png)
 
-![Grafana](https://img.shields.io/badge/Grafana-9.5.2-orange)
+![Grafana](https://img.shields.io/badge/Grafana-10.0-orange)
 [![YouTube](https://img.shields.io/badge/YouTube-Playlist-red)](https://youtube.com/playlist?list=PLPow72ygztmQHGWFqksEf3LebUfhqBfFu)
 ![CI](https://github.com/volkovlabs/volkovlabs-echarts-lite/workflows/CI/badge.svg)
 [![codecov](https://codecov.io/gh/VolkovLabs/volkovlabs-echarts-lite/branch/main/graph/badge.svg)](https://codecov.io/gh/VolkovLabs/volkovlabs-echarts-lite)
@@ -14,13 +14,14 @@ The Apache ECharts Lite plugin is a fork of the Apache ECharts panel that provid
 
 [Apache ECharts](https://echarts.apache.org/en/index.html) is a free, powerful charting and visualization library with statistical capabilities. It is written in pure JavaScript and based on zrender.
 
-[![Apache ECharts panel for Grafana | How to create modern dashboards in Grafana | ECharts Tutorial](https://raw.githubusercontent.com/volkovlabs/volkovlabs-echarts-panel/main/img/video.png)](https://youtu.be/DxqCrBEmrQw)
+[![Apache ECharts panel for Grafana | Explore possibilities](https://raw.githubusercontent.com/volkovlabs/volkovlabs-echarts-panel/main/img/overview.png)](https://youtu.be/S3PiL1p1v5U)
 
 Apache ECharts visualization panel offers an easy way of adding intuitive, interactive, and highly customizable charts into your Grafana dashboard.
 
 ### Requirements
 
-- **Grafana 8.5+, Grafana 9.0+** is required.
+- **Grafana 9** and **Grafana 10** are required for major version 2.
+- **Grafana 8.5** and **Grafana 9** are required for major version 1.
 
 ## Getting Started
 
@@ -33,7 +34,7 @@ The Apache ECharts Lite panel can be downloaded directly from the GitHub reposit
   - Updating chart configurations in JSON format.
 - Executes the `setOption()` function using Monaco Code Editor content.
 - Supports variables and location service to make Charts interactive.
-- Based on the ECharts 5.4.2.
+- Based on the ECharts 5.4.3.
 - Supports Light and Dark modes synchronized with Grafana Theme.
 - Supports SVG and Canvas renderers.
 - Supports Code Editor suggestions for Parameters and variables.
@@ -49,7 +50,8 @@ The Apache ECharts Lite panel can be downloaded directly from the GitHub reposit
 
 ## Support
 
-We provide GitHub Discussions and Premium tier support for the development and private plugins available via [GitHub Sponsor](https://github.com/sponsors/VolkovLabs).
+- Subscribe to our [YouTube Channel](https://www.youtube.com/@volkovlabs) and add a comment.
+- Premium support for the development plugins is available via [GitHub Sponsor](https://github.com/sponsors/VolkovLabs).
 
 ## License
 
