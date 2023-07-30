@@ -9,15 +9,14 @@ import { PanelOptions } from './types';
 export const plugin = new PanelPlugin<PanelOptions>(EChartsPanel)
   .setNoPadding()
   .setPanelOptions((builder) => {
-    builder
-      .addRadio({
-        path: 'renderer',
-        name: 'Renderer',
-        settings: {
-          options: RendererOptions,
-        },
-        defaultValue: DefaultOptions.renderer,
-      });
+    builder.addRadio({
+      path: 'renderer',
+      name: 'Renderer',
+      settings: {
+        options: RendererOptions,
+      },
+      defaultValue: DefaultOptions.renderer,
+    });
 
     /**
      * Editor
@@ -46,7 +45,7 @@ export const plugin = new PanelPlugin<PanelOptions>(EChartsPanel)
         id: 'getOption',
         path: 'getOption',
         name: 'Function',
-        description: 'Should return parameters and data for setOptions().',
+        description: 'Should return parameters and data for setOption() or an extended result object.',
         defaultValue: DefaultOptions.getOption,
         editor: EChartsEditor,
         category: ['Editor'],
