@@ -1,6 +1,6 @@
 # Change Log
 
-## 2.0.0 (IN PROGRESS)
+## 2.0.0 (2023-07-30)
 
 ### Features / Enhancements
 
@@ -8,6 +8,7 @@
 - Update to Grafana 10.0.2 (#9)
 - Remove Grafana 8.5 support (#9)
 - Update ESLint configuration (#9)
+- Add Result v2 with unsubscribe function (#10)
 
 ## 1.2.0 (2023-06-04)
 
