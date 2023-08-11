@@ -109,6 +109,7 @@ describe('Panel', () => {
             notifyError(errorPayload);
           },
           on: jest.fn(),
+          off: jest.fn(),
           clear: jest.fn(),
         }) as any
     ); // we need only these options
@@ -137,6 +138,7 @@ describe('Panel', () => {
         () =>
           ({
             on: jest.fn(),
+            off: jest.fn(),
             clear: clearChart,
             dispose: disposeChart,
             resize: resizeChart,
@@ -186,6 +188,7 @@ describe('Panel', () => {
           ({
             setOption: setOptionMock,
             on: jest.fn(),
+            off: jest.fn(),
           }) as any
       );
       render(getComponent({ options: { getOption } }));
@@ -212,6 +215,7 @@ describe('Panel', () => {
         () =>
           ({
             setOption: setOptionMock,
+            off: jest.fn(),
             on: jest.fn(),
           }) as any
       );
@@ -238,6 +242,7 @@ describe('Panel', () => {
           ({
             setOption: setOptionMock,
             on: jest.fn(),
+            off: jest.fn(),
           }) as any
       );
       render(getComponent({ options: { getOption } }));

@@ -100,7 +100,9 @@ export const EChartsPanel: React.FC<Props> = ({ options, data, width, height, re
 
     /**
      * Re-initialize on Restore
+     * We have to unsubscribe first to prevent memory leaks
      */
+    chart.off('restore');
     chart.on('restore', () => {
       initChart();
     });
