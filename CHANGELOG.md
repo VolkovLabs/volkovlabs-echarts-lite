@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.1.0 (IN PROGRESS)
+
+### Bugfixes
+
+- Fix Memory Leak on resubscribing to restore event (#11)
+
 ## 2.0.0 (2023-07-30)
 
 ### Features / Enhancements
